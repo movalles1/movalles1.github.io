@@ -1,0 +1,118 @@
+html {
+    background-color: #fafafa;
+}
+
+span.name {
+    color: #343434;
+    padding-bottom: 30px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 800px;
+    font-size: 80px;
+    display: block;
+    font-weight: bolder;
+    padding-left: 370px;
+}
+
+.navigation {
+    list-style: none;
+    display:inline-block;
+    font-size: 20px;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+    color: #474747;
+    text-align: justify;
+    position: relative;
+
+}
+
+#nav_links {
+    display: block;
+    bottom: 0px;
+    padding: 0px 0px;
+    bottom: 0;
+    position: absolute;
+    width: 800px;
+    padding-left: 400px;
+}
+
+.dash {
+    color: #fafafa
+}
+#header {
+    background-color: #fafafa;
+    width: auto;
+    height: 10px;
+    /* border: 3px solid  green; */
+    padding: 70px;
+    position:relative;
+}
+
+#site {
+    background-color: #fafafa;
+    width:auto
+}
+
+.dash {
+    color: #fafafa
+}
+
+a {
+    color: #343434;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkcyan
+}
+
+.slideshow {
+    padding-left:10px;
+    height: 20%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.pictures {
+    display:none;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name:fade;
+    animation-duration:0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+

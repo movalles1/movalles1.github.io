@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>The Max Experience</title>
+  <link rel="stylesheet" href="fanclub/stylesheet_fanclub.css" type="text/css">
+  <script src="fanclub/script_fanclub.js"> </script>
+ </head>
+ <body>
+  <div id="site">
+      <header id="header">
+          <div id="introduction"> 
+              <span class="name"> <a href="homepage.html">Maksimillian</a></span>
+          </div>
+          <div id="nav_links">
+              <ul class="navigation">
+                <li class="navigation"><a href="homepage.html">Homepage</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="about.html">About</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="faq.html">FAQ</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="fanclub.html">Join Fanclub</a></li>
+              </ul>
+          </div>
+      </header>
+      <main id="main_content">
+          <div id = "form">
+        <form >
+            <fieldset>
+              <legend>Become Part of the Max Experience:</legend>
+              <label> Name: </label>
+                <input type="text" name="name_input" id="name_input" size="30">
+              <label> Email </label>
+                <input type="text" name="email_input" id="email_input" size="30">
+              <p>Anything you'd like Max to know: </p>
+              <label> 
+                  <textarea id="comment_input" name="comment_input"></textarea>
+              </label>
+            <input type="button" id="join_submit" value="Join the Experience" />
+            </fieldset>
+          </form>
+        </div>
+        <div id="success_panel">
+            <span id="success"></span>
+            <img src=fanclub/taco.jpg style=width:30%> 
+        </div>
+      </main>
+  </div>
+ </body>
+</html>

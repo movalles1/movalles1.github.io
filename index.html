@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Max's Website</title>
+  <link rel="stylesheet" href="pages/homepage/stylesheet_homepage.css" type="text/css">
+  <script src="pages/homepage/script_homepage.js"> </script>
+ </head>
+ <body>
+  <div id="site">
+      <header id="header">
+          <div id="introduction"> 
+              <span class="name"> <a href="pages/homepage.html">Maksimillian</a></span>
+          </div>
+          <div id="nav_links">
+              <ul class="navigation">
+                <li class="navigation"><a href="pages/homepage.html">Homepage</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="pages/about.html">About</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="pages/faq.html">FAQ</a></li>
+                <li class="navigation dash"> - </li>
+                <li class="navigation"> <a href="pages/fanclub.html">Join Fanclub</a></li>
+              </ul>
+          </div>
+      </header>
+      <main id="main_content">
+          <!-- Image Carousel: code adapted from 
+            https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+          <div class="slideshow"> 
+              <div class="pictures fade">
+                <img src="pages/homepage/dinosaur.JPG" style=width:100%>
+              </div>
+              <div class="pictures fade">
+                  <img src="pages/homepage/cat.JPG" style=width:100%>
+              </div>
+              <div class="pictures fade">
+                  <img src="pages/homepage/turkey.JPG" style=width:100%>
+              </div>
+              <div class="pictures fade">
+                  <img src="pages/homepage/dog.JPG" style=width:100%>
+              </div>
+              <!-- Next and Previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </main>
+  </div>
+ </body>
+</html>

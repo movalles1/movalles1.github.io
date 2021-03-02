@@ -1,0 +1,93 @@
+html {
+    background-color: #fafafa;
+}
+
+span.name {
+    color: #343434;
+    padding-bottom: 30px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 80%;
+    font-size: 80px;
+    display: block;
+    font-weight: bolder;
+    padding-left: 300px;
+}
+
+.navigation {
+    list-style: none;
+    display:inline-block;
+    font-size: 20px;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+    color: #474747;
+    text-align: justify;
+    position: relative;
+
+}
+
+#nav_links {
+    display: block;
+    bottom: 0px;
+    padding: 0px 0px;
+    bottom: 0;
+    position: absolute;
+    width: 800px;
+    padding-left: 400px;
+}
+
+#header {
+    background-color: #fafafa;
+    width: auto;
+    height: 10px;
+    /* border: 3px solid  green; */
+    padding: 70px;
+    position:relative;
+}
+
+#site {
+    background-color: #fafafa;
+    width:1200px;
+}
+
+.dash {
+    color: #fafafa
+}
+
+a {
+    color: #343434;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkcyan
+}
+
+#main_content{
+    width: 80%;
+    padding-top: 40px;
+    margin-left: 50%;
+}
+#scrollbox {
+    height: 200px;
+    width: 500px;
+    /* margin: auto; */
+    overflow: auto;
+    background-color: navy;
+    color: #fafafa;
+    padding: 15px;
+    display: inline-block;
+}
+
+.question {
+    font-size: 30px;
+    color: palegoldenrod;
+}
+
+#download_button {
+    background-color: navy;
+    color: white;
+    font-size: 14px;
+    width: auto;
+}
